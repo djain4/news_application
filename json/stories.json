@@ -1,0 +1,40 @@
+[
+    {
+      "title": "Autodesk Impact Report: A Message from our CEO",
+      "highlight": "Exclusive",
+      "intro": "Autodesk’s journey began 40-years ago with a group of young technologists working to democratize CAD tools– they believed that a proliferation",
+      "imageUrl": "/assets/image_6.png",
+      "published": "2m",
+      "comments": 2,
+      "imageSize": "img-lg",
+      "type": "hot"
+    },
+    {
+      "title": "Australia is one of the most multicultural nations in the world",
+      "highlight": "Lorem Ipsum",
+      "intro": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "imageUrl": "/assets/image_7.png",
+      "published": "1h",
+      "comments": 1,
+      "imageSize": "img-md",
+      "type": "recent"
+    },
+    {
+      "title": "Cost of living bites as Australians head to polls",
+      "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "imageUrl": "/assets/image_8.png",
+      "published": "1h",
+      "imageSize": "img-xsm",
+      "type": "article"
+      
+    },
+    {
+      "title": "We invest in organization that invest and support students",
+      "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "imageUrl": "/assets/image_9.png",
+      "published": "3h",
+      "imageSize": "img-xsm",
+      "type": "article"
+    }
+  ]
+  
