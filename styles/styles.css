@@ -220,4 +220,31 @@ section.sub .highlight {
   color: var(--color-red);
   font-weight: bold;
 }
+
+@media (max-width: 820px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .sidebar {
+    width: auto;
+  }
+}
+
+@media (max-width: 426px) {
+  html {
+    font-size: 12px;
+  }
+  .content-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content-wrapper section {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

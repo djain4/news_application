@@ -200,3 +200,26 @@ section {
     }
   }
 }
+
+@media (max-width: 820px) {
+  .container {
+    flex-direction: column;
+
+    .sidebar {
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  html {
+    font-size: 12px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    section {
+      width: 100%;
+    }
+  }
+}
