@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Live: Greg Inglis to annouce retirement",
+    "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "imageUrl": "/assets/image_1.jpg",
+    "published": "2m",
+    "comments": 2,
+    "imageSize": "img-lg",
+    "type": "hot"
+  },
+  {
+    "title": "Opal Tower units still closed as work only approved now",
+    "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "imageUrl": "/assets/image_2.png",
+    "published": "1h",
+    "comments": 1,
+    "imageSize": "img-md",
+    "type": "recent"
+  },
+  {
+    "title": "One Nation support has crashed: Newspoll",
+    "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "imageUrl": "/assets/image_3.png",
+    "published": "1h",
+    "imageSize": "img-xsm",
+    "type": "article"
+    
+  },
+  {
+    "title": "Two fake cops robbed sydney currency exchange shop",
+    "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "imageUrl": "/assets/image_4.png",
+    "published": "3h",
+    "imageSize": "img-xsm",
+    "type": "article"
+  }
+]
