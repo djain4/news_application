@@ -1,1 +1,223 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --app-background-color: #ffffff;
+  --app-color-text: rgba(0, 0, 0, 1);
+  --app-color-text-90: rgba(0, 0, 0, 0.9);
+  --app-color-text-80: rgba(0, 0, 0, 0.8);
+  --app-color-text-70: rgba(0, 0, 0, 0.7);
+  --app-color-text-60: rgba(0, 0, 0, 0.6);
+  --app-color-text-50: rgba(0, 0, 0, 0.6);
+  --app-color-text-40: rgba(0, 0, 0, 0.4);
+  --app-color-text-30: rgba(0, 0, 0, 0.3);
+  --app-color-text-20: rgba(0, 0, 0, 0.2);
+  --app-color-text-10: rgba(0, 0, 0, 0.1);
+  --color-blue: blue;
+  --color-red: red;
+  --font-family: "Roboto Condensed", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--app-background-color);
+  font-family: var(--font-family);
+  color: var(--app-color-text);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+img.icon {
+  width: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+.img {
+  background-image: url(/assets/thumbnail.png);
+  position: relative;
+  overflow: hidden;
+  background-color: var(--app-color-text-10);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 30%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container .sidebar {
+  width: 50rem;
+}
+
+.metadata ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  margin-top: 4px;
+  padding-right: 6px;
+  border-right: 1px solid var(--app-color-text-50);
+  font-size: 1rem;
+  font-weight: 100;
+  color: var(--app-color-text-80);
+}
+
+.metadata ul li:last-child {
+  border-right: 0;
+}
+
+.metadata ul li .align-middle {
+  vertical-align: middle;
+}
+
+.metadata img {
+  width: 1rem;
+}
+
+article {
+  color: var(--app-color-text-60);
+  font-size: 0.9rem;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.2rem;
+  min-height: 10vh;
+  margin-top: 1rem;
+}
+
+article .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding-right: 10px;
+  position: relative;
+}
+
+article .content h2 {
+  font-size: 1rem;
+}
+
+article .content .metadata {
+  position: absolute;
+  bottom: 0;
+}
+
+article .img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-wrapper section {
+  margin-left: auto;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 50%;
+  padding: 1rem;
+}
+
+section.main .hot-topic, section.sub .hot-topic {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.2rem;
+}
+
+section.main .hot-topic .content .description, section.sub .hot-topic .content .description {
+  margin-bottom: 10px;
+}
+
+section.main .hot-topic .content .description p, section.sub .hot-topic .content .description p {
+  margin-top: 10px;
+}
+
+section.main h1 {
+  text-transform: uppercase;
+}
+
+section.main .highlight {
+  color: var(--color-blue);
+  font-weight: bold;
+}
+
+section.sub h1 {
+  font-size: 1.2rem;
+}
+
+section.sub .highlight {
+  color: var(--color-red);
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */
