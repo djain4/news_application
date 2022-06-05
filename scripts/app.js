@@ -202,3 +202,5 @@ const getCommentSection = (comments) =>
 
 const getHighlightSection = (highlight) =>
   highlight ? `<span class="highlight">${highlight}</span>` : "";
+
+const someRandomMethod = () => {}

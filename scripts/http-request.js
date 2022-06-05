@@ -11,3 +11,5 @@ export async function fetchAsync(urlPath) {
   // only proceed once second promise is resolved
   return data;
 }
+
+const someRandomMethod = () => {}
